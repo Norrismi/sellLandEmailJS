@@ -1,5 +1,6 @@
 import ContactHeader from '@/components/ContactHeader'
 import Navigation from '@/components/Navigation'
+import Process from '@/components/Process'
 import Image from 'next/image'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
 
       <Navigation />
       <ContactHeader />
+      <Process/>
     </main>
   )
 }
