@@ -51,6 +51,7 @@ const ContactForm = () => {
                 :
 
                 <div className="message" id="contact">
+                    <div className="text-4xl font-bold p-4 ">Sell Your South Carolina <br/> Property Now</div>
 
                     <form onSubmit={HandleSubmit} className="grid gap-4 grid-cols-1 md:grid-cols-2 text-gray-500 ">
 
