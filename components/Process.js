@@ -12,7 +12,7 @@ const Process = () => {
     return (
         <div className="bg-navy min-h-screen">
             <header className=" py-4 text-white text-center">
-                <h1 className="text-4xl text-white m-10">The Land Selling Process in 4 Easy Steps</h1>
+                <h1 className="text-4xl font-bold text-white m-10">The Land Selling Process in 4 Easy Steps</h1>
             </header>
 
             <div className="container mx-auto p-4">
@@ -42,7 +42,7 @@ const Process = () => {
 
                     </div>
                     <div className="w-1/4 p-4 m-2 bg-ltPurple shadow-2xl shadow-black rounded-2xl">
-                        <div className=" m-4 text-green-500">
+                        <div className=" m-4 text-salmon">
                             <Bs2Circle size={50} />
                         </div>
                         <div className='text-xl mb-4'>Consultation</div>
@@ -71,7 +71,7 @@ const Process = () => {
                         </ul>
                     </div>
                     <div className="w-1/4 bg-ltPurple shadow-2xl shadow-black rounded-2xl p-4 m-2">
-                        <div className=" m-4 text-green-500">
+                        <div className=" m-4 text-salmon">
                             <Bs3CircleFill size={50} />
                         </div>
                         <div className='text-xl mb-4'>Get You Cash Offer</div>
@@ -103,7 +103,7 @@ const Process = () => {
                         </ul>
                     </div>
                     <div className="w-1/4 bg-ltPurple shadow-2xl shadow-black rounded-2xl p-4 m-2">
-                        <div className=" m-4 text-green-500">
+                        <div className=" m-4 text-salmon">
                             <Bs4Circle size={50} />
                         </div>
                         <div className='text-xl mb-4'>Get MONEY for Your Land</div>

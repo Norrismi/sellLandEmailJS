@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className="flex items-center justify-center mb-2 md:mb-0 md:ml-4">
         <img src="/path-to-your-logo.png" alt="Logo" className="h-8 w-8 " />
       </div>
-      <div className="md:hidden flex">
+      {/* <div className="md:hidden flex">
         <button
           onClick={toggleMenu}
           className="text-white p-2 rounded-md focus:outline-none focus:bg-gray-700"
@@ -35,7 +35,7 @@ const Navigation = () => {
         <button className="text-white hover:text-pink-500 block md:inline-block px-4 py-2">About</button>
         <button className="text-white hover:text-pink-500 block md:inline-block px-4 py-2">Services</button>
         <button className="text-white hover:text-pink-500 block md:inline-block px-4 py-2">Contact</button>
-      </div>
+      </div> */}
     </nav>
   );
 };
