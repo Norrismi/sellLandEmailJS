@@ -11,11 +11,11 @@ import { BsPersonCircle } from "react-icons/bs";
 
 const ContactHeader = () => {
     return (
-        <div className="bg-cover bg-center bg-opacity-25 h-screen"
+        <div className="bg-cover bg-center"
             style={{ backgroundImage: `url('./assets/Fence.jpeg')` }}
         >
-            <div className="flex-col-1">
-                <div className="p-4 flex justify-around flex-col md:flex-row">
+            <div className="flex flex-col">
+                <div className="flex justify-around flex-col lg:flex-row p-4">
                     <div className="content-left p-6">
 
                         <div className=" bg-navy shadow-2xl shadow-black p-8 m-2 rounded-lg">
@@ -56,8 +56,7 @@ const ContactHeader = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className=" bg-navy shadow-2xl shadow-black p-8 mt-7 rounded-lg">
-
+                    <div className="flex flex-col  shadow-black px-7  mt-7 rounded-lg ">
                         <ContactForm />
                     </div>
                 </div>
