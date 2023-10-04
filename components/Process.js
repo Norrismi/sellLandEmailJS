@@ -10,12 +10,12 @@ import { Bs4Circle } from "react-icons/bs";
 
 const Process = () => {
   return (
-    <div className=" bg-navy ">
+    <div className=" bg-navy">
       <header className=" py-4 text-white text-center">
         <h1 className="text-2xl md:text-4xl font-bold text-white m-10">The Land Selling Process in 4 Easy Steps</h1>
       </header>
 
-      <div className="flex flex-col p-4 align-top  ">
+      <div className="flex flex-col p-4 align-top mb-20  ">
         <div className="grid justify-between text-black  lg:grid-cols-4 gap-2 md:grid-cols-2 ">
           
           <div className=" flex flex-col bg-ltPurple shadow-2xl rounded-2xl shadow-black  p-4 m-2">
