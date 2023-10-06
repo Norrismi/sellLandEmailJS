@@ -56,7 +56,7 @@ const ContactHeader = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex flex-col  shadow-black px-7  mt-7 rounded-lg ">
+                    <div className="flex flex-col  shadow-black px-7  mt-8 m-8 rounded-lg ">
                         <ContactForm />
                     </div>
                 </div>

@@ -36,21 +36,21 @@ const ContactForm = () => {
 
 
 
-        // emailjs.send(process.env.NEXT_PUBLIC_SERVICE, process.env.NEXT_PUBLIC_TEMPLATE, emailForm, process.env.NEXT_PUBLIC_END)
-        //     .then((response) => {
-        //         console.log("SUCCESS!", response.status, response.text);
-        //         setSubmitted(true)
+        emailjs.send(process.env.NEXT_PUBLIC_SERVICE, process.env.NEXT_PUBLIC_TEMPLATE, emailForm, process.env.NEXT_PUBLIC_END)
+            .then((response) => {
+                console.log("SUCCESS!", response.status, response.text);
+                setSubmitted(true)
 
-        //     }, (error) => {
-        //         console.log("FAILED...", error);
-        //     })
+            }, (error) => {
+                console.log("FAILED...", error);
+            })
     };
 
 
     return (
         <div className="bg-navy p-8 rounded-lg ">
           <header className="py-4 text-white text-center">
-            <h1 className="text-4xl md:text-4xl  font-bold text-white m-2 md:m-10">Sell Your South Carolina Property Now</h1>
+            <h1 className="text-4xl md:text-4xl  font-bold text-white m-2 ">Sell Your South Carolina Property Now</h1>
           </header>
     
           <div className="container mx-auto p-4">

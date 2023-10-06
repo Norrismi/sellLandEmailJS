@@ -33,7 +33,7 @@ const Process = () => {
               </div>
               <div className="flex items-center">
                 <BsCheckLg size={20} />
-                <li className='mb-2 ml-2'>Alternatively, call us at 602.833.1236</li>
+                <li className='mb-2 ml-2'>Alternatively, call us at 123.456.789</li>
               </div>
               <div className="flex items-center">
                 <BsCheckLg size={20} />
